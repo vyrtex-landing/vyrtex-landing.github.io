@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta property="og:image" name="og:image" content="http://i.imgur.com/XvC5Lja.png" data-app>
+
+    <title>Vyrtex</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+	<link href="vyrtex-favicon-16.png" rel="icon" type="image/png" />
+  <script>
+
+  $(document).ready(function() {
+    var oldPageYOffset = 0;
+  $(window).scroll(function(){
+    if (window.pageYOffset != oldPageYOffset)
+    {
+      oldPageYOffset = window.pageYOffset;
+      console.log("Window scrolling changed");
+      $("#latest-articles" ).removeClass( "dimmed");
+    }
+  });
+});
+  </script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo">VYRTEX</div>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+		      <ul class="nav navbar-nav">
+				        <li><a href="" data-toggle="modal" data-target=".bs-example-modal-lg">Subscribe</a></li>
+                <li><a href="http://www.vyrtex.com">Sign-in</a></li>
+		      </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="padding:30px; text-align: center; background-color: #efeded;">
+          <h4>Get smart, thought-provoking articles delivered regularly to your inbox.</h4>
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="//vyrtex.us10.list-manage.com/subscribe/post?u=14633891ab07d9410804534fe&amp;id=21dd059404" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+
+                  <div class="mc-field-group" style="display:inline-block; width:300px;">
+                    <label for="mce-EMAIL"></label>
+                    <input type="email" value="" name="EMAIL" class="required email theemailform" id="mce-EMAIL" placeholder="best email to reach you at">
+                  </div>
+                  <div id="mce-responses" class="clear" style="display:inline-block;">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div><br>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_14633891ab07d9410804534fe_21dd059404" tabindex="-1" value=""></div>
+                  <div class="clear" style="display:inline-block;"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button thesubmitbutton"></div>
+                </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+    </div>
+
+	<!-- Section: intro
+    <section id="intro" class="intro">
+
+		<div class="slogan">
+			<div><span class="main-text">Share and organize content you love</span></div>
+			<br><a href="http://beta.vyrtex.com" class="join-beta" target="_blank">Try our Beta</a>
+		</div>
+		<div class="page-scroll">
+			<a href="#service" class="btn btn-circle">
+				<i class="fa fa-angle-double-down animated"></i>
+			</a>
+		</div>
+    </section>
+	Section: intro -->
+
+
+
+	 <section id="home" class="first-home-section text-center">
+
+	 	<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow fadeInUp" data-wow-delay="0.1s">
+						<div class="section-heading purple">
+						<b><h1>Smart Reads for Smart People</h1></b><br>
+            <h3>Tired of listicles? Get thought-provoking articles in your inbox, handpicked by other smart people.</h3>
+						</div>
+					</div>
+					<row>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3 text-center">
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="//vyrtex.us10.list-manage.com/subscribe/post?u=14633891ab07d9410804534fe&amp;id=21dd059404" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+
+                <div class="mc-field-group" style="display:inline-block; width:300px;">
+                	<label for="mce-EMAIL"></label>
+                	<input type="email" value="" name="EMAIL" class="required email theemailform" id="mce-EMAIL" placeholder="best email to reach you at">
+                </div>
+              	<div id="mce-responses" class="clear" style="display:inline-block;">
+              		<div class="response" id="mce-error-response" style="display:none"></div>
+              		<div class="response" id="mce-success-response" style="display:none"></div>
+              	</div><br>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_14633891ab07d9410804534fe_21dd059404" tabindex="-1" value=""></div>
+                <div class="clear" style="display:inline-block;"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button thesubmitbutton"></div>
+              </div>
+          </form>
+        </div>
+        <!--End mc_embed_signup-->
+			</div>
+		</div>
+		<div class="text-center">
+			<!--<a href="http://beta.vyrtex.com" class="join-beta" target="_blank">Join Vyrtex!</a>-->
+		</div>
+
+		</div>
+
+
+
+	 </section>
+
+
+
+
+	<!-- Section: What is Vyrtex -->
+    <section id="latest-articles" class="home-section text-center bg-gray dimmed">
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div>
+					<div class="section-heading">
+					<h3 style="letter-spacing: 3px;">LATEST READS</h3>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-5">
+					<hr class="marginbot-50">
+				</div>
+			</div>
+    <div class="container">
+      <div class="row" style="text-align: center;">
+      	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="testimonial-container">
+    			<div class="testimonial wow fadeInUp">
+            <div class="article-image" style="background-image:url('img/article-images/1-superbowl.jpg')"></div>
+    				<!---->
+					         <div class='event-info'>
+						                <h4>I Made Less Than $13 an Hour to Serve $13 Bud Lights at the Super Bowl</h4>
+						                What it’s like making less than $13 an hour to serve $13 beers at one of the biggest games on Earth.<br>
+                            <div class="publisher">Slate Magazine</div>
+                            <span class="tag personal-essay">Personal Essay</span><span class="tag sports">Sports</span><br>
+					         </div>
+                   <div class='event-type'>Picked by Matt Mantica</div>
+    		  </div>
+  		  </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="testimonial-container">
+          <div class="testimonial wow fadeInUp">
+            <div class="article-image" style="background-image:url('img/article-images/2-twitter.jpg')"></div>
+            <!---->
+                   <div class='event-info'>
+                            <h4>How Facebook Squashed Twitter</h4>
+                            Twitter uncovered the most powerful format in mobile back in 2006: the feed. But, in 2009, Facebook went algorithmic while Twitter remained to hard...<br>
+                            <div class="publisher">Stratechery</div>
+                            <span class="tag tech">Tech</span><br>
+                   </div>
+                   <div class='event-type'>Picked by Prashant Ramesh</div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="testimonial-container">
+    			<div class="testimonial wow fadeInUp">
+            <div class="article-image" style="background-image:url('img/article-images/3-competent.jpg')"></div>
+    				<!---->
+					         <div class='event-info'>
+						                <h4>The Downside of Being Competent</h4>
+						                New research suggests that reliable employees are assigned more work—but they don't always like it.<br>
+                            <div class="publisher">The Atlantic</div>
+                            <span class="tag curiosities">Curiosities</span><br>
+					         </div>
+                   <div class='event-type'>Picked by Jennifer Sun</div>
+    		  </div>
+  		  </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="testimonial-container">
+    			<div class="testimonial wow fadeInUp">
+            <div class="article-image" style="background-image:url('img/article-images/4-trump.jpg')"></div>
+    				<!---->
+					         <div class='event-info'>
+						                <h4>The rise of Donald Trump is a terrifying moment in American politics</h4>
+						                We are so busy laughing at Trump that we’ve lost sight of how dangerous he is.<br>
+                            <div class="publisher">Vox</div>
+                            <span class="tag politics">Politics</span><br>
+					         </div>
+                   <div class='event-type'>Picked by Dilip Rajan</div>
+    		  </div>
+  		  </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="testimonial-container">
+          <div class="testimonial wow fadeInUp">
+            <div class="article-image" style="background-image:url('img/article-images/5-cam.jpg')"></div>
+            <!---->
+                   <div class='event-info'>
+                            <h4>How Cam Newton Has Stretched the Sports World’s Racial Barriers</h4>
+                            “You had to understand,” Fritz Pollard Jr., the son of the NFL’s first black quarterback, once told an interviewer. “You had to play within certain...<br>
+                            <div class="publisher">Slate Magazine</div>
+                            <span class="tag social-justice">Social Justice</span><span class="tag sports">Sports</span><br>
+                   </div>
+                   <div class='event-type'>Picked by Taylor Culliver</div>
+          </div>
+        </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="testimonial-container">
+        <div class="testimonial wow fadeInUp">
+          <div class="article-image" style="background-image:url('img/article-images/6-drake.jpg')"></div>
+          <!---->
+                 <div class='event-info'>
+                          <h4>The Drake Effect Is Real, But The Nicki Effect Is Bigger</h4>
+                          After toying with Drake in 2014, the queen of rap showed him up again in 2015. Sure, Drake released his fourth mixtape, “If You’re Reading This It’...<br>
+                          <div class="publisher">FiveThirtyEight</div>
+                          <span class="tag culture">Culture</span><br>
+                 </div>
+                 <div class='event-type'>Curated by Chetan Khanna</div>
+        </div>
+      </div>
+  	</div>
+
+    <div class="row" style="text-align: center;">
+      <h4 style="color: #d3d1d1;">LOAD MORE</h4><br>
+      <hr>
+      <br>
+      <div class="signup-box wow pulse" data-wow-delay="0.8s">
+      <h3>Insert some more cool copy here.</h3>
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="//vyrtex.us10.list-manage.com/subscribe/post?u=14633891ab07d9410804534fe&amp;id=21dd059404" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+
+              <div class="mc-field-group" style="display:inline-block; width:300px;">
+                <label for="mce-EMAIL"></label>
+                <input type="email" value="" name="EMAIL" class="required email theemailform" id="mce-EMAIL" placeholder="what's your email?">
+              </div>
+              <div id="mce-responses" class="clear" style="display:inline-block;">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div><br>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_14633891ab07d9410804534fe_21dd059404" tabindex="-1" value=""></div>
+              <div class="clear" style="display:inline-block;"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button thesubmitbutton"></div>
+            </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+    </div>
+
+    </div>
+  </div>
+</div>
+</section>
+	<!-- /Section: What is Vyrtex -->
+
+
+	<!-- /Section: footer -->
+
+	<footer>
+		<div class="container">
+			<!--<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="" data-wow-delay="0.4s">
+					<div class="page-scroll marginbot-30">
+						<a href="#home" id="totop" class="btn btn-circle">
+							<i class="fa fa-angle-double-up animated"></i>
+						</a>
+					</div>
+					</div>
+					<p>&copy;Copyright 2015 - Vyrtex Labs Inc. All rights reserved.</p>
+				</div>
+			</div>-->
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <p>&copy;Copyright 2015 - Vyrtex Labs Inc. All rights reserved.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="footer-nav-item">About Us</div>
+          <div class="footer-nav-item">Get Involved</div>
+          <div class="footer-nav-item">Curator Portal</div>
+          <div class="footer-nav-item">T&P</div>
+        </div>
+      </div>
+		</div>
+	</footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

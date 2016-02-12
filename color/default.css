@@ -1,0 +1,46 @@
+
+a,.tp-caption a.btn:hover {
+	color: #4b1f5a;
+}
+.top-nav-collapse {
+	background: #4b1f5a; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left, #4b1f5a , #1e1e5e); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, #4b1f5a , #1e1e5e); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, #4b1f5a , #1e1e5e); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, #4b1f5a , #1e1e5e); /* Standard syntax */
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: #4b1f5a;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #4b1f5a;
+}
+
+.widget-avatar .avatar:hover {
+    border: 5px solid #4b1f5a;
+}
+
+.bg-skin {
+	background: #4b1f5a;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #4b1f5a;
+}
+
+footer {
+	background: #4b1f5a; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(left, #4b1f5a , #1e1e5e); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(right, #4b1f5a , #1e1e5e); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(right, #4b1f5a , #1e1e5e); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to right, #4b1f5a , #1e1e5e); /* Standard syntax */
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #4b1f5a;
+  border-color: #4b1f5a;
+}
