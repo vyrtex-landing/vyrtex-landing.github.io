@@ -820,6 +820,10 @@ footer p {
   display: inline-block;
 }
 
+.footer-nav-item a {
+  color: white;
+}
+
 /* ==========================
 Parallax
 ============================= */
