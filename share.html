@@ -7,10 +7,17 @@
   <meta property="og:type"   content="website" />
   <meta property="og:url" content="http://newsletter.vyrtex.com/share" />
   <meta name="og:title" property="og:title" content="Share the Vyrtex daily email!" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+  <link href="vyrtex-favicon-16.png" rel="icon" type="image/png" />
 </head>
 
 <body>
-<script>
+<!--<script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1022971161053055',
@@ -26,7 +33,7 @@
      js.src="https://connect.facebook.net/en_US/all.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
-</script>
+</script>-->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -36,9 +43,25 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<!--<<script>
+FB.ui({
+  method: 'share',
+  href: 'http://newsletter.vyrtex.com',
+}, function(response){});*/
+
+
+  $("#custom-fb-share").click(function() {
+    console.log('clicked')
+  });
+
+</script>
+-->
+
 This is the page to share the newsletter with other users
 
-<div class="fb-share-button" data-href="http://newsletter.vyrtex.com/" data-layout="button"></div>
+<div class="custom-fb-share-button" style="background-color:red;" data-href="http://newsletter.vyrtex.com/" data-layout="button"></div>
+
+<div style="background-color:grey; padding:20px; max-width:200px" id="custom-fb-share">Share</div>
 
 
 
