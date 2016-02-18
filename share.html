@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<script>
+<!--<script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1022971161053055',
@@ -34,11 +34,39 @@
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1022971161053055";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));</script>-->
+
+<script>
+$(document).ready(function() {
+  var isAndroid = /(android)/i.test(navigator.userAgent);
+  var isIphone = /(iPhone)/i.test(navigator.userAgent);
+  if (isAndroid) {
+    $(".sms-container").append("you are using an android phone!");
+  }
+  if (isIphone) {
+    $(".sms-container").append("you are using an iphone!");
+  }
+});
+
+</script>
+
 
 This is the page to share the newsletter with other users
 
 <div class="fb-share-button" data-href="http://newsletter.vyrtex.com/" data-layout="button"></div>
+
+<div class="fb-container">
+<a target="_blank" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?app_id=1022971161053055&sdk=joey&u=http%3A%2F%2Fnewsletter.vyrtex.com%2F&display=popup&ref=plugin&src=share_button','title','width=500,height=300')">
+  Share to Facebook!</a>
+</div>
+
+<div class="twitter-container">
+<a target="_blank" href="javascript:window.open('https://twitter.com/home?status=Check%20out%20the%20best%20newsletter%20for%20thoughtful%20reads%20on%20tech,%20politics%20and%20culture%20%40teamvyrtex%20http%3A//newsletter.vyrtex.com/')">
+  Share on Twitter</a>
+</div>
+
+<div class="sms-container">
+</div>
 
 
 
