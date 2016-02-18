@@ -1106,6 +1106,32 @@ Parallax
 
 /* SHARE PAGE */
 
+#share-page {
+  margin: 0;
+  text-align: center;
+}
+.share-text {
+  font-weight:500;
+  max-width:400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.share-header {
+  height: 80px;
+  background: #4b1f5a; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(left, #4b1f5a , #1e1e5e); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(right, #4b1f5a , #1e1e5e); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(right, #4b1f5a , #1e1e5e); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to right, #4b1f5a , #1e1e5e); /* Standard syntax */
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
 .fb-container {
   text-align: center;
   margin-bottom: 15px;
@@ -1124,6 +1150,9 @@ Parallax
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -1145,6 +1174,9 @@ Parallax
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .email-container {
@@ -1165,6 +1197,9 @@ Parallax
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sms-container {
@@ -1185,4 +1220,7 @@ Parallax
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
