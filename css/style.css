@@ -417,6 +417,11 @@ hr {
   text-transform: uppercase;
 }
 
+.submit-container {
+  width:100%;
+  max-width:300px;
+}
+
 .intro {
 	width:100%;
 	position:relative;
