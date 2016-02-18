@@ -1,0 +1,456 @@
+#mailchimp {
+  text-align: center;
+}
+
+#mailchimp center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+}
+
+#mailchimp p{
+			margin:1em 0;
+		}
+		#mailchimp a{
+			word-wrap:break-word;
+		}
+		#mailchimp table{
+			border-collapse:collapse;
+		}
+		#mailchimp h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		#mailchimp img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		#mailchimp body,#bodyTable,#bodyCell{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+		#mailchimp #outlook a{
+			padding:0;
+		}
+		#mailchimp img{
+			-ms-interpolation-mode:bicubic;
+		}
+		#mailchimp table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		#mailchimp .ReadMsgBody{
+			width:100%;
+		}
+		#mailchimp .ExternalClass{
+			width:100%;
+		}
+		#mailchimp p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		#mailchimp a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		#mailchimp p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		#mailchimp #bodyCell{
+			padding-top:20px;
+			padding-right:10px;
+			padding-bottom:20px;
+			padding-left:10px;
+		}
+		#mailchimp .templateContainer{
+			max-width:600px;
+		}
+		#mailchimp .columnsContainer{
+			max-width:197px;
+		}
+		#mailchimp a.mcnButton{
+			display:block;
+		}
+		#mailchimp .mcnImage{
+			vertical-align:bottom;
+		}
+		#mailchimp .mcnTextContent img{
+			height:auto !important;
+		}
+		#mailchimp body,#bodyTable{
+			background-color:#f2f2f2;
+		}
+		#mailchimp #bodyCell{
+			border-top:0;
+		}
+		#mailchimp .templateContainer{
+			border:0;
+		}
+		#mailchimp h1{
+			color:#606060 !important;
+			font-family:Helvetica;
+			font-size:40px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:-1px;
+			text-align:left;
+		}
+		#mailchimp h2{
+			color:#404040 !important;
+			;
+                /*@editable*/ font-family:Helvetica;
+			font-size:26px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:-.75px;
+			text-align:left;
+		}
+		#mailchimp h3{
+			color:#606060 !important;
+			font-family:Helvetica;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:-.5px;
+			text-align:left;
+		}
+		#mailchimp h4{
+			color:#808080 !important;
+			font-family:Helvetica;
+			font-size:16px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+		#mailchimp #templatePreheader{
+			background-color:#f2f2f2;
+			border-top:0;
+			border-bottom:0;
+		}
+		#mailchimp .preheaderContainer .mcnTextContent,.preheaderContainer .mcnTextContent p{
+			color:#606060;
+			font-family:Helvetica;
+			font-size:11px;
+			line-height:125%;
+			text-align:left;
+		}
+		#mailchimp .preheaderContainer .mcnTextContent a{
+			color:#606060;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#mailchimp #templateHeader{
+			background-color:#f2f2f2;
+			border-top:0;
+			border-bottom:0;
+		}
+		#mailchimp .headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+			color:#606060;
+			font-family:Helvetica;
+			font-size:15px;
+			line-height:150%;
+			text-align:left;
+		}
+		#mailchimp .headerContainer .mcnTextContent a{
+			color:#5b0470;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#mailchimp #templateUpperBody{
+			background-color:#ffffff;
+			border-top:0;
+			border-bottom:0;
+		}
+		#mailchimp .upperBodyContainer .mcnTextContent,.upperBodyContainer .mcnTextContent p{
+			color:#222222;
+			font-family:Helvetica;
+			font-size:15px;
+			line-height:150%;
+			text-align:left;
+		}
+		#mailchimp .upperBodyContainer .mcnTextContent a{
+			color:#4b1f5a;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#mailchimp #templateColumns{
+			background-color:#ffffff;
+			border-top:0;
+			border-bottom:0;
+		}
+		#mailchimp .leftColumnContainer .mcnTextContent,.leftColumnContainer .mcnTextContent p{
+			color:#333333;
+			font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+			font-size:14px;
+			line-height:150%;
+			text-align:left;
+		}
+		#mailchimp .leftColumnContainer .mcnTextContent a,.leftColumnContainer .mcnTextContent p a{
+			color:#4b1f5a;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#mailchimp .centerColumnContainer .mcnTextContent,.centerColumnContainer .mcnTextContent p{
+			color:#333333;
+			font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+			font-size:14px;
+			line-height:150%;
+			text-align:left;
+		}
+		#mailchimp .centerColumnContainer .mcnTextContent a,.centerColumnContainer .mcnTextContent p a{
+			color:#4b1f5a;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#mailchimp .rightColumnContainer .mcnTextContent,.rightColumnContainer .mcnTextContent p{
+			color:#333333;
+			font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+			font-size:14px;
+			line-height:150%;
+			text-align:left;
+		}
+		#mailchimp .rightColumnContainer .mcnTextContent a,.rightColumnContainer .mcnTextContent p a{
+			color:#4b1f5a;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#mailchimp #templateLowerBody{
+			background-color:#f2f2f2;
+			border-top:0;
+			border-bottom:0;
+		}
+		#mailchimp .lowerBodyContainer .mcnTextContent,.lowerBodyContainer .mcnTextContent p{
+			color:#333333;
+			font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+			font-size:14px;
+			line-height:150%;
+			text-align:left;
+		}
+		#mailchimp .lowerBodyContainer .mcnTextContent a{
+			color:#000000;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		#mailchimp #templateFooter{
+			background-color:#FFFFFF;
+			border-top:0;
+			border-bottom:0;
+		}
+		#mailchimp .footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+			color:#606060;
+			font-family:Helvetica;
+			font-size:11px;
+			line-height:125%;
+			text-align:center;
+		}
+		#mailchimp .footerContainer .mcnTextContent a{
+			color:#606060;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+	@media screen and (min-width:768px){
+		#mailchimp .templateContainer{
+			width:600px !important;
+		}
+
+}	@media screen and (min-width:768px){
+		#mailchimp .columnsContainer{
+			width:197px !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp .columnsContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp .columnWidth{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp img.mcnImage,table.mcnCaptionTopContent,table.mcnCaptionBottomContent,table.mcnTextContentContainer,table.mcnImageGroupContentContainer,table.mcnCaptionLeftTextContentContainer,table.mcnCaptionRightTextContentContainer,table.mcnCaptionLeftImageContentContainer,table.mcnCaptionRightImageContentContainer,table.mcnImageCardLeftTextContentContainer,table.mcnImageCardRightTextContentContainer{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp .mcnBoxedTextContentContainer{
+			max-width:100% !important;
+			min-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp table.mcnCaptionLeftContentOuter td.mcnTextContent,table.mcnCaptionRightContentOuter td.mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.mcnImageCardTopImageContent,td.mcnCaptionBlockInner table.mcnCaptionTopContent:last-child td.mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp tbody.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.mcnTextContent,td.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.mcnImageCardLeftImageContent,td.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.columnsContainer{
+			display:block !important;
+			max-width:600px !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp table.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.footerContainer a.utilityLink{
+			display:block !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp h1{
+			font-size:24px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp h2{
+			font-size:20px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp h3{
+			font-size:18px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp h4{
+			font-size:16px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp table.mcnBoxedTextContentContainer td.mcnTextContent,td.mcnBoxedTextContentContainer td.mcnTextContent p{
+			font-size:18px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td#templatePreheader{
+			display:block !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.preheaderContainer td.mcnTextContent,td.preheaderContainer td.mcnTextContent p{
+			font-size:14px !important;
+			line-height:115% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.headerContainer td.mcnTextContent,td.headerContainer td.mcnTextContent p{
+			font-size:18px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.upperBodyContainer td.mcnTextContent,td.upperBodyContainer td.mcnTextContent p{
+			font-size:18px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.leftColumnContainer td.mcnTextContent,td.leftColumnContainer td.mcnTextContent p{
+			font-size:16px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.centerColumnContainer td.mcnTextContent,td.centerColumnContainer td.mcnTextContent p{
+			font-size:16px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.rightColumnContainer td.mcnTextContent,td.rightColumnContainer td.mcnTextContent p{
+			font-size:16px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.lowerBodyContainer td.mcnTextContent,td.lowerBodyContainer td.mcnTextContent p{
+			font-size:18px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width:480px){
+		#mailchimp td.footerContainer td.mcnTextContent,td.footerContainer td.mcnTextContent p{
+			font-size:14px !important;
+			line-height:115% !important;
+		}
+
+}
