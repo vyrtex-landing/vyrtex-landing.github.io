@@ -397,14 +397,14 @@ hr {
 .theemailform {
   border: none;
   display: inline-block;
-  width: 300px;
+  width: 100%;
   height: 50px;
   padding-left: 20px;
 }
 
 .thesubmitbutton {
   display:inline-block;
-  width: 300px;
+  width: 100%;
   height: 50px;
   border: none;
   position:relative;
