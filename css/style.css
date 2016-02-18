@@ -1103,3 +1103,67 @@ Parallax
   right: 0;
   background: rgba(0, 0, 0, 0.85);
 }
+
+/* SHARE PAGE */
+
+.fb-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.fb-container a {
+  text-decoration: none;
+}
+
+.fb-button {
+  padding: 15px;
+  max-width: 300px;
+  background-color: #4c66a4;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+
+.twitter-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.twitter-container a {
+  text-decoration: none;
+}
+
+.twitter-button {
+  padding: 15px;
+  max-width: 300px;
+  background-color: #4099FF;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+
+.sms-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.sms-container a {
+  text-decoration: none;
+}
+
+.sms-button {
+  padding: 15px;
+  max-width: 300px;
+  background-color: #43d854;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
