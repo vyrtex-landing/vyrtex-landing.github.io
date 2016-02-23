@@ -1134,12 +1134,15 @@ Parallax
   color: white;
   padding: 10px;
   margin-bottom: 10px;
+  letter-spacing: 1.1px;
+  padding-bottom: 15px;
 }
 
 
 .fb-container {
-  text-align: center;
+  text-align: left;
   margin-bottom: 15px;
+  font-size: .7em;
 }
 
 .fb-container a {
@@ -1147,7 +1150,7 @@ Parallax
 }
 
 .fb-button {
-  padding: 15px;
+  padding: 12px;
   max-width: 300px;
   background-color: #4c66a4;
   color: white;
@@ -1158,12 +1161,14 @@ Parallax
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 20px;
 }
 
 
 .twitter-container {
-  text-align: center;
+  text-align: left;
   margin-bottom: 15px;
+  font-size: .7em;
 }
 
 .twitter-container a {
@@ -1171,7 +1176,7 @@ Parallax
 }
 
 .twitter-button {
-  padding: 15px;
+  padding: 12px;
   max-width: 300px;
   background-color: #4099FF;
   color: white;
@@ -1182,11 +1187,13 @@ Parallax
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 20px;
 }
 
 .email-container {
-  text-align: center;
+  text-align: left;
   margin-bottom: 15px;
+  font-size: .7em;
 }
 
 .email-container a {
@@ -1194,7 +1201,7 @@ Parallax
 }
 
 .email-button {
-  padding: 15px;
+  padding: 12px;
   max-width: 300px;
   background-color: #db3a1b;
   color: white;
@@ -1205,11 +1212,13 @@ Parallax
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 20px;
 }
 
 .sms-container {
-  text-align: center;
+  text-align: left;
   margin-bottom: 15px;
+  font-size: .7em;
 }
 
 .sms-container a {
@@ -1217,7 +1226,7 @@ Parallax
 }
 
 .sms-button {
-  padding: 15px;
+  padding: 12px;
   max-width: 300px;
   background-color: #43d854;
   color: white;
@@ -1228,4 +1237,35 @@ Parallax
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 20px;
+}
+
+.icons-containerA {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 0px;
+  max-width: 100px;
+}
+
+.icons-containerB {
+  display: inline-block;
+  padding-left: 35px;
+  padding-right: 15px;
+  max-width: 100px;
+}
+
+.share-button-text {
+  margin-left: 20px;
+  position: relative;
+  top: -8px;
+  display: inline-block;
+  text-align: left;
+}
+
+.share-button-text-B {
+  margin-left: 25px;
+  position: relative;
+  top: -8px;
+  display: inline-block;
+  text-align: left;
 }
